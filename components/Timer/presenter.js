@@ -13,7 +13,6 @@ class Timer extends Component {
                 </View>
                 <View style={styles.lower}>
                     { !isPlaying ? <Button iconName="play-circle" onPress={() => alert("it works!")} /> : <Button iconName="stop-circle" onPress={() => alert("it works!")} /> }
-                    
                 </View>
             </View>   
         )
