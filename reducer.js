@@ -62,6 +62,7 @@ function applyStartTimer(state){
 function applyRestartTimer(state){
     return {
         ...state,
+        isPlaying:false,
         elapsedTime :0
     }
 }
