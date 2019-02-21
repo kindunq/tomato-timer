@@ -5,7 +5,7 @@ import Button from "../Button";
 class Timer extends Component {
     render() {
         console.log(this.props)
-        const {isPlaying, elapsedTime,timerDuration,startTimer,restartTimer} = this.props;
+        const {isPlaying, elapsedTime,timerDuration,startTimer,restartTimer,addSecond} = this.props;
         return (
             <View style={styles.container}>
                 <StatusBar barStyle={"light-content"}/>
